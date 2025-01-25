@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import { motion } from 'framer-motion';
+import { section } from 'framer-motion/client';
 
 export default function Reviews() {
   const reviews = [
@@ -73,7 +74,8 @@ export default function Reviews() {
   };
 
   return (
-    <div className="p-8 bg-gray-200 lg:-mt-34 -mt-22">
+    <section id="reviews">
+      <div className="p-8 bg-gray-200 lg:-mt-34 -mt-22">
       <motion.h1
         className="text-3xl font-bold text-red-800"
         variants={containerVariants}
@@ -171,5 +173,6 @@ export default function Reviews() {
         </motion.button>
       </div>
     </div>
+    </section>
   );
 }

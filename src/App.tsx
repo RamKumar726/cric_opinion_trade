@@ -13,7 +13,7 @@ import FAQ from "./components/FAQ.tsx"
 
 function App() {
   return (
-    <div className="App">
+    <div className="App"> 
       <Navbar />
       <Partner />
       <DisplayCards />
