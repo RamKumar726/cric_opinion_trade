@@ -1,6 +1,5 @@
 import React, { useRef } from 'react';
 import { motion } from 'framer-motion';
-import { section } from 'framer-motion/client';
 
 export default function Reviews() {
   const reviews = [
